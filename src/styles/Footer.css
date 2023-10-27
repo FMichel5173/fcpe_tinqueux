@@ -1,0 +1,33 @@
+.footer-container {
+  height: 3rem;
+  background-color: #55aa55;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.info-container p {
+  margin: 0.5rem 0;
+}
+
+.social-links-container a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.social-links-container a img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  box-shadow: 3px 3px 12px 4px #003366;
+}
+
+.social-links-container a:hover {
+  color: #007bff;
+}
