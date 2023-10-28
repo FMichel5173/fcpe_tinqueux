@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Home from "./components/Home";
 import ContactInfo from "./components/ContactInfo";
+import Team from "./components/Team";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<ContactInfo />} />
+          <Route path='/team' element={<Team />} />
         </Routes>
       </div>
     </Router>
