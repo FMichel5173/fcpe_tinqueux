@@ -98,6 +98,18 @@
 }
 
 @media (min-width: 1000px) {
+  .menu-dropdown {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+    margin-left: 11rem;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1rem;
+  }
+
   .logo {
     border: 1.1rem solid #003366;
     width: 12rem;
@@ -118,7 +130,6 @@
     gap: 1rem;
     align-items: center;
     font-size: 1rem;
-    
   }
 
   .join-button {
