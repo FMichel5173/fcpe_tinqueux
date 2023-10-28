@@ -23,28 +23,41 @@
 
 .home h1 {
   color: #003366;
-  font-size: 2em;
+  font-size: 2rem;
   margin-top: 5rem;
   margin-bottom: 7rem;
 }
 
 .home p {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .home::before {
     background-image: url("../assets/FondEcranPaysage.png");
   }
 
   .home h1 {
-    font-size: 2em;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 
   .home p {
-    font-size: 1.3em;
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home h1 {
+    font-size: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .home p {
+    font-size: 2.5rem;
   }
 }
