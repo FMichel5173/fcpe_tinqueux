@@ -5,6 +5,7 @@ import ContactInfo from "./components/ContactInfo";
 import Team from "./components/Team";
 import About from "./components/About";
 import News from "./components/News";
+import Partners from "./components/Partners";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/team' element={<Team />} />
           <Route path='/about' element={<About />} />
           <Route path='/news' element={<News />} />
+          <Route path='/partners' element={<Partners />} />
         </Routes>
       </div>
     </Router>
