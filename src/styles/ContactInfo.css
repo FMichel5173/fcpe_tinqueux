@@ -17,7 +17,7 @@
 
 .contact-btn {
   display: block;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   text-align: center;
   padding: 10px 20px;
@@ -26,9 +26,52 @@
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease;
-
 }
 
 .contact-btn:hover {
   background-color: #45a049;
+}
+
+@media (min-width: 600px) {
+  .contact-info-container {
+    padding: 3rem;
+  }
+
+  .contact-info-container h2 {
+    font-size: 4rem;
+    margin-bottom: 8rem;
+  }
+
+  .contact-info-container p {
+    font-size: 1.5rem;
+  }
+
+  .contact-btn {
+    padding: 20px 45px;
+    margin: 90px auto;
+    border-radius: 15px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-info-container {
+    padding: 6rem;
+  }
+
+  .contact-info-container h2 {
+    font-size: 6rem;
+    margin-bottom: 8rem;
+  }
+
+  .contact-info-container p {
+    font-size: 2.5rem;
+  }
+
+  .contact-btn {
+    padding: 40px 90px;
+    margin: 90px auto;
+    border-radius: 15px;
+    font-size: 2.5rem;
+  }
 }
