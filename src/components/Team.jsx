@@ -1,41 +1,43 @@
 import "../styles/Team.css";
+import Fred from "../assets/Fred.png";
+import Silhouette from "../assets/silhouette.png";
 
 function Team() {
   const members = [
     {
       name: "François BERSCHEID",
       role: "Président",
-      image: "src/assets/silhouette.png",
+      image: Silhouette,
     },
     {
       name: "Frédéric MICHEL",
       role: "Vice-Président",
-      image: "src/assets/Fred.png",
+      image: Fred,
     },
     {
       name: "Emeline COKLARD",
       role: "Trésorière",
-      image: "src/assets/silhouette.png",
+      image: Silhouette,
     },
     {
       name: "Christelle PARINGAUX",
       role: "Trésorière adjointe",
-      image: "src/assets/silhouette.png",
+      image: Silhouette,
     },
     {
       name: "Sandrine DEQUIN",
       role: "Secrétaire",
-      image: "src/assets/silhouette.png",
+      image: Silhouette,
     },
     {
       name: "Marika RAMUS",
       role: "Secrétaire adjointe",
-      image: "src/assets/silhouette.png",
+      image: Silhouette,
     },
     {
       name: "Virginie VILLAIN-LEGER",
       role: "Administratrice",
-      image: "src/assets/silhouette.png",
+      image: Silhouette,
     },
   ];
 

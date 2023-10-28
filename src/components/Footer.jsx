@@ -1,6 +1,6 @@
 import logoFacebook from '../assets/Logo Facebook.png';
 import logoLinkedIn from '../assets/Logo LinkedIn.png';
-import logoFCPE from '../assets/Logo FCPE Marne.png';
+import logoFCPE from '../assets/LogoFCPEMarne.png';
 import "../styles/Footer.css";
 
 

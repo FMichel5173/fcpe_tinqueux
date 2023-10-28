@@ -1,25 +1,29 @@
 import "../styles/Partners.css";
+import MairieTinqueux from "../assets/MairieTinqueux.jpeg";
+import LogoFCPEMarne from "../assets/LogoFCPEMarne.png";
+import AroevenLogo from "../assets/Aroéven.png";
+import FamilleRuraleLogo from "../assets/Famille Rurale.png";
 
 function Partners() {
   const partners = [
     {
       name: "Mairie de Tinqueux",
-      logo: "src/assets/MairieTinqueux.jpeg",
+      logo: MairieTinqueux,
       link: "https://ville-tinqueux.fr/",
     },
     {
       name: "FCPE Marne",
-      logo: "src/assets/Logo FCPE Marne.png",
+      logo: LogoFCPEMarne,
       link: "https://www.fcpe-marne.fr/",
     },
     {
       name: "Aroéven",
-      logo: "src/assets/Aroéven.png",
+      logo: AroevenLogo,
       link: "https://www.aroeven-champagne-ardenne.fr/",
     },
     {
       name: "Famille rurale",
-      logo: "src/assets/Famille Rurale.png",
+      logo: FamilleRuraleLogo,
       link: "https://grand-est.famillesrurales.org/21/federation-de-la-marne",
     },
   ];
