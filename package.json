@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://FMichel5173.github.io/fcpe_tinqueux",
+  "homepage": "http://fmichel5173.github.io/fcpe_tinqueux",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
