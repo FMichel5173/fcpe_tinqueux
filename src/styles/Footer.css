@@ -1,6 +1,6 @@
 .footer-container {
   height: 3rem;
-  background-color: #55aa55;
+  background-color: transparent;
   padding: 2rem;
   display: flex;
   justify-content: flex-end;
