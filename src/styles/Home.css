@@ -4,7 +4,7 @@
   padding: 20px;
   text-align: center;
   overflow-y: auto;
-  max-height: calc(100vh - 6rem);
+  max-height: calc(100vh - 10rem);
 }
 
 .home::before {

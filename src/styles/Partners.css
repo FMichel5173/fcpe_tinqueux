@@ -1,6 +1,6 @@
 .partners-container {
   padding: 2rem;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 15rem);
   overflow-y: auto;
 }
 

@@ -5,37 +5,37 @@ function Team() {
     {
       name: "François BERSCHEID",
       role: "Président",
-      image: "../src/assets/silhouette.png",
+      image: "src/assets/silhouette.png",
     },
     {
       name: "Frédéric MICHEL",
       role: "Vice-Président",
-      image: "../src/assets/Fred.png",
+      image: "src/assets/Fred.png",
     },
     {
       name: "Emeline COKLARD",
       role: "Trésorière",
-      image: "../src/assets/silhouette.png",
+      image: "src/assets/silhouette.png",
     },
     {
       name: "Christelle PARINGAUX",
       role: "Trésorière adjointe",
-      image: "../src/assets/silhouette.png",
+      image: "src/assets/silhouette.png",
     },
     {
       name: "Sandrine DEQUIN",
       role: "Secrétaire",
-      image: "../src/assets/silhouette.png",
+      image: "src/assets/silhouette.png",
     },
     {
       name: "Marika RAMUS",
       role: "Secrétaire adjointe",
-      image: "../src/assets/silhouette.png",
+      image: "src/assets/silhouette.png",
     },
     {
       name: "Virginie VILLAIN-LEGER",
       role: "Administratrice",
-      image: "../src/assets/silhouette.png",
+      image: "src/assets/silhouette.png",
     },
   ];
 

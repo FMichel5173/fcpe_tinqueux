@@ -4,22 +4,22 @@ function Partners() {
   const partners = [
     {
       name: "Mairie de Tinqueux",
-      logo: "../src/assets/MairieTinqueux.jpeg",
+      logo: "src/assets/MairieTinqueux.jpeg",
       link: "https://ville-tinqueux.fr/",
     },
     {
       name: "FCPE Marne",
-      logo: "../src/assets/Logo FCPE Marne.png",
+      logo: "src/assets/Logo FCPE Marne.png",
       link: "https://www.fcpe-marne.fr/",
     },
     {
       name: "Aroéven",
-      logo: "../src/assets/Aroéven.png",
+      logo: "src/assets/Aroéven.png",
       link: "https://www.aroeven-champagne-ardenne.fr/",
     },
     {
       name: "Famille rurale",
-      logo: "../src/assets/Famille Rurale.png",
+      logo: "src/assets/Famille Rurale.png",
       link: "https://grand-est.famillesrurales.org/21/federation-de-la-marne",
     },
   ];
