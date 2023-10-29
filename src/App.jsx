@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/fcpe_tinqueux">
       <div className='app-container'>
         <Header />
         <Routes>
