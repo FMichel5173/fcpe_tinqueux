@@ -6,7 +6,7 @@ import Team from "./components/Team";
 import About from "./components/About";
 import News from "./components/News";
 import Partners from "./components/Partners";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
