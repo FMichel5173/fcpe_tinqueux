@@ -19,8 +19,10 @@ function Home() {
       <p>
         Ici, vous trouverez toutes les informations concernant nos actions, nos
         événements à venir, ainsi que les différentes manières de nous rejoindre
-        et de participer activement à la vie scolaire de notre commune.Ensemble,
-        faisons de l'éducation une priorité !
+        et de participer activement à la vie scolaire de notre commune.
+        <span className='priority-text'>
+          Ensemble, faisons de l'éducation une priorité !
+        </span>
       </p>
     </div>
   );

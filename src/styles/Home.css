@@ -34,6 +34,11 @@
   text-align: justify;
 }
 
+.home .priority-text {
+  display: block;
+  text-decoration: underline;
+}
+
 @media (min-width: 600px) {
   .home::before {
     background-image: url("../assets/FondEcranPaysage.png");
