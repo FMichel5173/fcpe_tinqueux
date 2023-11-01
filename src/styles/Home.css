@@ -36,7 +36,6 @@
 
 .home .priority-text {
   display: block;
-  text-decoration: underline;
 }
 
 @media (min-width: 600px) {
