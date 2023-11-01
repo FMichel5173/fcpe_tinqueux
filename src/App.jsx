@@ -6,11 +6,11 @@ import Team from "./components/Team";
 import About from "./components/About";
 import News from "./components/News";
 import Partners from "./components/Partners";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename="/fcpe_tinqueux">
+    <Router basename='/fcpe_tinqueux'>
       <div className='app-container'>
         <Header />
         <Routes>
